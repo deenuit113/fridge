@@ -163,7 +163,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, STATIC_URL)
 
 CORS_ORIGIN_WHITELIST = [
-    'http://15.164.49.26:8000',
+    'http://127.0.0.1:8000',
     'http://localhost:8000',
 ]   
 CORS_ALLOW_CREDENTIALS = True
